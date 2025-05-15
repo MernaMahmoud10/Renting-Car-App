@@ -1,0 +1,13 @@
+.footer {
+    background-color: #051c34 !important;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    .footerImg {
+        padding: 1rem 0;
+    }
+    a{
+        padding: 0 !important;
+    }
+
+}

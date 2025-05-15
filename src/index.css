@@ -1,0 +1,117 @@
+:root {
+    font-size: 1.25rem;
+    overflow-x: hidden;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+
+.fs-6 {
+    @media (max-width: 768px) {
+
+        font-size: 0.8rem !important;
+        font-weight: 500;
+
+    }
+
+}
+
+small {
+    font-size: 0.8rem !important;
+}
+
+.sectionTitle {
+    line-height: 1.2;
+    font-size: 2.9rem !important;
+    font-weight: 600 !important;
+    text-transform: capitalize;
+    margin: 1.8rem 0;
+
+    &.fs-small {
+        font-size: 2.3rem !important;
+
+    }
+
+    @media (max-width: 768px) {
+        line-height: 1.5;
+        font-size: 1.1rem !important;
+        font-weight: 500 !important;
+        margin: 0.7rem 0px;
+
+    }
+}
+
+.blueDiv {
+
+    background-color: rgb(237, 241, 250);
+    color: rgb(74, 112, 248);
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    padding: 0.5rem 1.2rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(21, 114, 211, 0.1);
+    border-image: initial;
+
+    @media (max-width: 768px) {
+        font-size: 0.7rem !important;
+        font-weight: 700 !important;
+        padding: 0.4rem 0.8rem;
+    }
+
+}
+
+.slick-slide img {
+    display: inline-block;
+}
+
+.slick-track {
+    transition: -webkit-transform 3000ms linear !important;
+}
+
+
+.pagination {
+    display: flex;
+    font-size: text-caption;
+
+    span,
+    .page-link {
+        padding: 0.5rem;
+        line-height: 0.8;
+        color: #656565;
+        font-size: 0.8rem;
+        transition: all 0.3s ease-in-out;
+        border-radius: 0.25rem;
+
+        .icx {
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+            background: blue;
+            color: white;
+
+            .icx {
+                color: white;
+                transition: all 0.3s ease-in-out;
+                outline: none;
+            }
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 0.2rem rgba(0, 105, 217, 0.25);
+        }
+
+
+    }
+
+    .page-item {
+        &.active {
+            a{
+            background-color: #0d6efd;
+            color: aliceblue !important;
+        }}
+    }
+}

@@ -1,0 +1,73 @@
+@keyframes textScaleUp {
+    0% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 7rem;
+    }
+}
+
+@keyframes animationCar {
+    0% {
+        width: 10%
+    }
+
+    to {
+        width: 70%
+    }
+
+}
+
+
+.header {
+    background-image: url(../../assets/images/landing-page/Frame.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 35% 90%;
+    background-origin: border-box;
+
+
+    .carHeader {
+        animation: animationCar 2s forwards;
+        -webkit-animation: animationCar 2s forwards;
+
+        @media (max-width: 768px) {
+            width: 90%
+        }
+    }
+
+
+    .animatedText {
+        margin-top: 112px;
+        animation: textScaleUp 2s forwards;
+        -webkit-animation: textScaleUp 2s forwards;
+        padding: 0 2rem;
+        margin-left: 5rem;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-direction: column;
+
+        @media (max-width: 768px) {
+            padding: 0 !important;
+            margin-left: 0 !important;
+            text-align: center;
+        }
+
+        .animationHeading {
+            font-size: 2.7rem;
+
+            @media (max-width: 768px) {
+
+                font-size: 1.5rem;
+
+            }
+
+            span {
+                color: #1572d3;
+            }
+
+        }
+    }
+}

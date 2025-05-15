@@ -1,0 +1,34 @@
+.notFound {
+background-color: #060a0f;
+    .card {
+        position: relative;
+        max-width: 26%;
+        padding: 24px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: var(--effectShadowLightShallow);
+        border: 1px solid rgb(var(--colorGrayLighter));
+
+        h3 {
+            font-size: 1.3rem !important;
+            line-height: 1;
+            color: rgb(53 58 62);
+        }
+
+        p {
+            margin-top: 5px;
+            font-size: 0.9rem;
+            color: rgb(53 58 62);
+
+            a {
+                color: rgb(2 128 125);
+                font-weight: 600;
+            }
+
+            &.yourSite {
+                font-size: 0.8rem;
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+}

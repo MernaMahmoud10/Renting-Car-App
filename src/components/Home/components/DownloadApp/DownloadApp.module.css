@@ -1,0 +1,17 @@
+.downloadApp {
+    h3 {
+        font-weight: 600;
+    }
+
+    small {
+        font-size: 1.25rem !important;
+        color: black;
+    }
+
+
+    input {
+        background-color: #cedcff !important;
+        padding: 0.7rem 1.5rem !important;
+    }
+
+}

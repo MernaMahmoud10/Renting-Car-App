@@ -1,0 +1,18 @@
+.logo {
+    width: 106% !important;
+    padding: 2rem;
+}
+
+.navItem {
+    margin-right: 2rem;
+}
+
+.butnsDiv {
+    padding: 2rem;
+    display: flex;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
+}
