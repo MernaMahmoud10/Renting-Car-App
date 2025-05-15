@@ -65,6 +65,10 @@ small {
 
 .slick-slide img {
     display: inline-block;
+
+    &.imgCard {
+        height: 390px;
+    }
 }
 
 .slick-track {
@@ -109,9 +113,10 @@ small {
 
     .page-item {
         &.active {
-            a{
-            background-color: #0d6efd;
-            color: aliceblue !important;
-        }}
+            a {
+                background-color: #0d6efd;
+                color: aliceblue !important;
+            }
+        }
     }
 }
