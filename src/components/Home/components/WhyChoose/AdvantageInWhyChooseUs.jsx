@@ -1,6 +1,6 @@
 import React from 'react'
 import images from '../../../../helpers/images'
-import style from './WhyChoose.module.css'
+import style from './whyChoose.module.css'
 
 export default function AdvantageInWhyChooseUs() {
     
