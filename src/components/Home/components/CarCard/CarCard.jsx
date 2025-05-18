@@ -8,7 +8,7 @@ export default function CarCard({ car }) {
 
 
     return (
-        <div className="col-md-3 mb-3">
+        <div className="col-md-6 col-xl-3 mb-3">
             <div className="card w-100">
                 <img src={images?.cards?.[cars?.[Math.ceil(Math.random() * (4 - 1) + 1)]]} className="card-img-top w-75 d-block mx-auto my-2" alt="..." />
                 <div className="card-body">
