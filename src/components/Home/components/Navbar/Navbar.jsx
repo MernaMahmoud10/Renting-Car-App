@@ -7,7 +7,7 @@ export default function Navbar() {
         <>
 
 
-            <nav className="navbar navbar-expand-lg navbar-light bg-transparent m-0 ">
+            <nav className="navbar navbar-expand-lg navbar-light bg-transparent m-0 p-0">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img src={images?.nav?.logo} className={`${style?.logo}`}  />
@@ -18,17 +18,17 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className={`nav-link ${style?.navItem}`} aria-current="page" href="#">Become a rintal</a>
+                                <a className={`nav-link px-0 ${style?.navItem}`} aria-current="page" href="#">Become a rintal</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${style?.navItem}`} aria-current="page" href="#">Rinatal deals</a>
+                                <a className={`nav-link px-0 ${style?.navItem}`} aria-current="page" href="#">Rinatal deals</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${style?.navItem}`} aria-current="page" href="#">How it work</a>
+                                <a className={`nav-link px-0 ${style?.navItem}`} aria-current="page" href="#">How it work</a>
 
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${style?.navItem}`} aria-current="page" href="#">Why choose us</a>
+                                <a className={`nav-link px-0 ${style?.navItem}`} aria-current="page" href="#">Why choose us</a>
                             </li>
                         </ul>
                         <form className={`d-flex justify-contnt-start ${style?.butnsDiv}`}>

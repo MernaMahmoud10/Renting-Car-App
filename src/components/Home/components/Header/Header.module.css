@@ -39,7 +39,7 @@
 
 
     .animatedText {
-        margin-top: 112px;
+        margin-top: 85px;
         animation: textScaleUp 2s forwards;
         -webkit-animation: textScaleUp 2s forwards;
         padding: 0 2rem;

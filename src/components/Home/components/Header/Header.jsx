@@ -8,7 +8,7 @@ export default function Header() {
         <div className={style?.header}>
             <Navbar />
             <div className='row gx-0 mt-md-5 mt-1 mb-5' >
-                <div className='mt-md-5 mt-md-1 pt-md-5 col-md-4 order-md-1 order-2'>
+                <div className='mt-md-4 mt-md-1 pt-md-5 col-md-4 order-md-1 order-2'>
                     <div className={`text-center ${style?.animatedText}`}>
                         <h1 className={`fw-md-bolder fw-bolder ${style?.animationHeading}`}>
                             Find, book and rent a car
